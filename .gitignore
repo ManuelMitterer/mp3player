@@ -1,1 +1,11 @@
 *.mp3
+
+# IDE
+/nbproject
+/.idea
+
+# System
+.DS_Store
+
+# Node.js
+/node_modules
