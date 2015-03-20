@@ -1,0 +1,21 @@
+{
+  "name": "WebAudioPlayer",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ManuelMitterer/mp3player.git"
+  },
+  "author": "Mitterer Manuel",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "should": "^3.3.1",
+    "mocha": "^1.18.2",
+    "istanbul": "^0.3.8"
+  }
+}
