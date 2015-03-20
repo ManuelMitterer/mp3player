@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "cover": ".\\node_modules\\.bin\\istanbul cover .\\node_modules\\mocha\\bin\\_mocha"
   },
   "repository": {
     "type": "git",
@@ -16,6 +17,7 @@
   "devDependencies": {
     "should": "^3.3.1",
     "mocha": "^1.18.2",
-    "istanbul": "^0.3.8"
+    "istanbul": "^0.3.8",
+    "cover": "^0.2.9"
   }
 }
