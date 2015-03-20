@@ -1,0 +1,52 @@
+{
+	"tracks": [
+		{
+			"url": "http://multimediatechnology.at/~fhs33729/files/temp/track1.mp3",
+			"title": "Fahrenheit fair enough",
+			"artist": "Telephone Tel Aviv",
+			"genre": "Electronic",
+			"album": "Telephone Tel Aviv",
+			"year": "2001"
+		},
+		{
+			"url": "assets/track2.mp3",
+			"title": "ttv",
+			"artist": "Telephone Tel Aviv",
+			"genre": "Electronic",
+			"album": "Fahrenheit fair enough",
+			"year": "2001"
+		},
+		{
+			"url": "assets/track3.mp3",
+			"title": "First Fires",
+			"artist": "Bonobo",
+			"genre": "Electronic",
+			"album": "The North Borders",
+			"year": "2013"
+		},
+		{
+			"url": "assets/track3.mp3",
+			"title": "Emkay",
+			"artist": "Bonobo",
+			"genre": "Electronic",
+			"album": "The North Borders",
+			"year": "2013"
+		},
+		{
+			"url": "assets/track3.mp3",
+			"title": "Cirrus",
+			"artist": "Bonobo",
+			"genre": "Electronic",
+			"album": "The North Borders",
+			"year": "2013"
+		},
+		{
+			"url": "assets/track6.mp3",
+			"title": "Kiara",
+			"artist": "Bonobo",
+			"genre": "Electronic",
+			"album": "Black Sands",
+			"year": "2012"
+		}
+	]
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="vendor/normalize.css"/>
+		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+	<div>
+		<div id="player">
+			<div>
+				<div class="player-header">Web Audio Player</div>
+				<div id="graph"></div>
+				<div id="controls" class="btn-group">
+					<button class="btn" id="btnShuffle" data-toggle="button"><i class="icon-random button"></i></button>
+					<button class="btn" id="btnRepeat" data-toggle="button"><i class="icon-repeat button"></i></button>
+				</div>
+				<div id="player-controls" class="btn-group">
+					<button class="btn" id="btnPrev"><i class="icon-backward button"></i></button>
+					<button class="btn" id="btnPlayPause"><i class="icon-play button"></i></button>
+					<button class="btn" id="btnStop"><i class="icon-stop button"></i></button>
+					<button class="btn" id="btnNext"><i class="icon-forward button"></i></button>
+				</div>
+				<div id="volumeSlider" data-min="0" data-max="1" data-value="1"></div>
+				<i ng-click="muteButton()" id="btnVolume" class="volume-up-bg button"></i>
+			</div>
+			<div>
+				<div id="progressText"></div>
+				<div id="progressSlider" data-min="0" data-max="300" data-value="0"></div>
+				<div id="durationText"></div>
+			</div>
+			<div>
+				<hr class="splitter" />
+				<div id="trackInfo">
+					<div class="track-title"><span class="track-info">Titel:</span> <span id="track-title"></span></div>
+					<div class="track-artist"><span class="track-info">Artist:</span> <span id="track-artist"></span></div>
+					<div class="track-genre"><span class="track-info">Genre:</span> <span id="track-genre"></span></div>
+					<div class="track-album"><span class="track-info">Album:</span> <span id="track-album"></span></div>
+				</div>
+			</div>
+		</div>
+		<div id="tracklist">
+			<div class="tracks" draggable="true" id="{{track.id}}">{{track.title}} - {{track.artist}}</div>
+		</div>
+		<div></div>
+	</div>
+
+	<script src="vendor/jquery-2.0.0.min.js"></script>
+	<script src="vendor/bootstrap.js"></script>
+	<script src="vendor/underscore-1.3.3.js"></script>
+	<script src="js/sliderModel.js"></script>
+	<script src="js/model.js"></script>
+	<script src="js/controller.js"></script>
+	<script src="js/views.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
